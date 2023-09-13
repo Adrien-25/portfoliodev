@@ -45,7 +45,7 @@ export const NavBar = () => {
             placement="end"
           >
            <Nav className="ms-auto">
-              <Nav.Link
+              <Nav.Link 
                 href="#home"
                 className={
                   activeLink === "home" ? "active navbar-link" : "navbar-link"
